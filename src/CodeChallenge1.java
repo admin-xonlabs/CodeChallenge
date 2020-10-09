@@ -18,6 +18,8 @@ public class CodeChallenge1 {
 				{21,22,23,24,25}
 						};
 		
+		traverse(mat);
+		
 	}
 
 }
