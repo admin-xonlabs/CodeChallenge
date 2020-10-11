@@ -4,7 +4,6 @@ public class CodeChallenge1 {
 	public static void traverse(int[][] arr)
 	{
 		// your logic here
-		static void zigZagMatrix(int arr[][] ) {
 			int n=arr[0].length;
 			int m=arr.length;
 			  int row = 0, col = 0;
