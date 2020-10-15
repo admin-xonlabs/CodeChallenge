@@ -1,7 +1,3 @@
-import java.util.HashSet;
-import java.util.Random;
-import java.util.Scanner;
-
 public class Challenge2 {
 
 	public static void main(String[] args) {
@@ -73,5 +69,5 @@ public class Challenge2 {
 
 }
 
-
+}
 	
