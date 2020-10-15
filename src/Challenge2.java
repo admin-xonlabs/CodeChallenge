@@ -67,6 +67,7 @@ public class Challenge2 {
 		}
 	}
 
+}
 
 
-	}		}
+	
