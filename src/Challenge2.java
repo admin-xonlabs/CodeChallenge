@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 
-public class Challange2 {
+public class Challenge2 {
     static{
         System.out.println("RULES:-");
         System.out.println("1.Should be a three digit number. \n 2.Time limit is limited to 60 seconds. \n 3.Person with least number of guesses wins. \n4.Maximum guesses that would be provided will be 30\n ");
