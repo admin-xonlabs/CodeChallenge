@@ -16,12 +16,12 @@ public class Challenge2 {
 				try{
 					guess = input.nextInt();
 					if(hasDupes(guess) || guess < 100) 
-
+							
 						continue;
-
+						
 				}
 				catch(InputMismatchException e){
-
+						
 					continue;
 				}
 				guesses++;
@@ -39,8 +39,8 @@ public class Challenge2 {
 						System.out.println("CLOSE");
 					}
 				}
-
-
+					
+					
 				if(MATCH == 3){
 					guessed = true;
 				}
@@ -48,12 +48,12 @@ public class Challenge2 {
 				{
 					System.out.println("NONE");
 				}
-
+					
 			}while(!guessed);
 			System.out.println("CONGRATULATIONS!\n");
 			System.out.println("You won after "+guesses+" guesses!");
 		}
-
+		 
 		public static boolean hasDupes(int num){
 			boolean[] digs = new boolean[10];
 			while(num > 0)
@@ -62,12 +62,13 @@ public class Challenge2 {
 				digs[num%10] = true;
 				num/= 10;
 			}
-
+				
 			return false;
 		}
 	}
 
-}
+
+	}
 
 }
 	
