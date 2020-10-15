@@ -9,7 +9,7 @@ public class Challenge2 {
     }
 
 
-    public static boolean guessTheGame(int guess,int[] arr,int num) {
+    public static boolean guess1(int guess,int[] arr,int num) {
         int guessRem, i = 2;
         int[] guessArray = new int[3];
         boolean numberPresent=false,runAgain=true;
@@ -68,7 +68,7 @@ public class Challenge2 {
                 long endTime=System.currentTimeMillis();
                 if (guessNumber >= 100 && guessNumber <= 999)
                     if((endTime-startTime)<=60000)
-                        guess = guessTheGame(guessNumber, arr,generatedNumber);
+                        guess = guess1(guessNumber, arr,generatedNumber);
                     else {
                         System.out.println("Time out...Please read above rules.");
                         guess=false;
