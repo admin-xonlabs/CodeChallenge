@@ -2,7 +2,7 @@ import java.util.HashSet;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Challenge2 {
+Public class Challenge2 {
 
 	public static void main(String[] args) {
 int count=0,c=0,c1=0,d=0;
@@ -60,7 +60,7 @@ int count=0,c=0,c1=0,d=0;
     
     if(c==3)
     {
-     System.err.println("Congrats u won the game in "+count+" Attemts");
+     System.err.println("Congrats u won the game in "+count+" Attempts");
     }
    }
   }
