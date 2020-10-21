@@ -6,7 +6,7 @@ public class Challenge3 {
 		double inHandSalary = 0;
 		
 		// Your Logic Here
-	//=================================incom tax===================================
+	//=================================income tax===================================
 		System.out.println("                    ");
 		System.out.println("==============================================================");
 		
@@ -74,7 +74,7 @@ public class Challenge3 {
 		System.out.println("total bonus=="+s1);
 }
 		
-     	 //=============================flexibal pay============================
+     	 //=============================flexible pay============================
 			double b= basePay;
 			double b1=0;
 			if(b<40000)
