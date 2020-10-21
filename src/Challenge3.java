@@ -77,27 +77,26 @@ public class Challenge3 {
      	 //=============================flexible pay============================
 			double b= basePay;
 			double b1=0;
-			if(b<40000)
+			if(b<=40000)
 			{
 				b1=b1+0;
-				System.out.println("total flexibal pay =="+b1);
+				System.out.println("total flexible pay =="+b1);
 			}
-			else if(b<50000 )
+			else if(b<=50000 )
 			{
 			b1=b1+((b/100)*30);
-			System.out.println(" total flexibal pay =="+b1);
-			}
-			 else if( b<60000)
+			System.out.println(" total flexible pay =="+b1);
+			 else if( b<=60000)
 			{
 			b1=b1+((b/100)*40);
-			System.out.println("total flexibal pay =="+b1);
+			System.out.println("total flexible pay =="+b1);
 			}
 			 else 
 				 {
-				 if(b<60000);
+				 if(b>60000);
 			{
-			b1=b1+((b/100)*40);
-		System.out.println("total flexibal pay =="+b1);
+			b1=b1+((b/100)*50);
+		System.out.println("total flexible pay =="+b1);
 			}
 				 }
 			double base=basePay;
