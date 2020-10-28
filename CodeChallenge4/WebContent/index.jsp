@@ -5,12 +5,12 @@
 <form action='table' method=post>
 	<label>Enter rows</label>
 	<br/>
-	<input type=number required="required" />
+	<input type=number required="required" name="rows"/>
 	<br/>
 	<br/>
 	<label>Enter cols</label>
 	<br/>
-	<input type=number required="required" />
+	<input type=number required="required" name="cols"/>
 	<br/>
 	<br/>
 	<input type=submit value='Generate Table' />
