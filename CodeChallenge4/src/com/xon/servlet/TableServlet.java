@@ -51,6 +51,9 @@ public class TableServlet extends HttpServlet
       }
       pw.print("</table>");
       }
+      else
+      {
+      pw.print("invalid number of rows and coloumns");
       }
       pw.close();
    }
